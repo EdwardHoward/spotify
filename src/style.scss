@@ -2,9 +2,64 @@
 
 body{
    text-align: center;
+
 }
 
 .time{
    font-family: 'Roboto', sans-serif;
    font-size: 500%;
+}
+
+.ui.icon.header{
+   display: block;
+}
+
+.p-2{
+   padding: 2rem;
+}
+
+.center{
+   position: absolute;
+   top: 30%;
+   left: 50%;
+   transform: translate(-50%);
+}
+
+.icon-button{
+   position: relative;
+   top: 2rem;
+
+   color: #383838;
+   cursor: pointer;
+
+   transition: color .1s ease;
+
+   &:hover{
+      color: #1e1e1e;
+   }
+}
+
+.react-countdown-clock {
+   position: relative;
+
+   canvas{
+      left: 0;
+      top: 0;
+   }
+}
+
+.d-flex{
+   display: flex;
+   justify-content: center;
+}
+
+.hover-opacity{
+   transition: opacity .2s ease; 
+   &.hidden{
+      opacity: 0.2;
+
+      &:hover{
+         opacity: 1;
+      }
+   }
 }

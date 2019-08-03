@@ -39,7 +39,9 @@
     "express": "^4.17.1",
     "express-session": "^1.16.2",
     "react": "^16.4.1",
+    "react-countdown-clock": "^2.6.0",
     "react-dom": "^16.4.1",
+    "semantic-ui-react": "^0.87.3",
     "spotify-web-api-js": "^1.2.0",
     "spotify-web-api-node": "^4.0.0"
   }
