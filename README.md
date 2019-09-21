@@ -1,10 +1,5 @@
-# React Webpack Typescript Project
-
-Use Docker
-
-    docker-compose up
-
-Or 
+# Spotify
+Web app that can control your spotify
 
 Install Project
 
